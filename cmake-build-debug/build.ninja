@@ -52,24 +52,28 @@ build cmake_object_order_depends_target_lab2: phony || CMakeFiles/lab2.dir
 build CMakeFiles/lab2.dir/main.cpp.obj: CXX_COMPILER__lab2_unscanned_Debug C$:/Users/mrkru/CLionProjects/lab2/main.cpp || cmake_object_order_depends_target_lab2
   DEP_FILE = CMakeFiles\lab2.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrkru/CLionProjects/lab2/Numerus/src
   OBJECT_DIR = CMakeFiles\lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2.dir
 
 build CMakeFiles/lab2.dir/model.cpp.obj: CXX_COMPILER__lab2_unscanned_Debug C$:/Users/mrkru/CLionProjects/lab2/model.cpp || cmake_object_order_depends_target_lab2
   DEP_FILE = CMakeFiles\lab2.dir\model.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrkru/CLionProjects/lab2/Numerus/src
   OBJECT_DIR = CMakeFiles\lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2.dir
 
 build CMakeFiles/lab2.dir/view.cpp.obj: CXX_COMPILER__lab2_unscanned_Debug C$:/Users/mrkru/CLionProjects/lab2/view.cpp || cmake_object_order_depends_target_lab2
   DEP_FILE = CMakeFiles\lab2.dir\view.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrkru/CLionProjects/lab2/Numerus/src
   OBJECT_DIR = CMakeFiles\lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2.dir
 
 build CMakeFiles/lab2.dir/controller.cpp.obj: CXX_COMPILER__lab2_unscanned_Debug C$:/Users/mrkru/CLionProjects/lab2/controller.cpp || cmake_object_order_depends_target_lab2
   DEP_FILE = CMakeFiles\lab2.dir\controller.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrkru/CLionProjects/lab2/Numerus/src
   OBJECT_DIR = CMakeFiles\lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\lab2.dir
 

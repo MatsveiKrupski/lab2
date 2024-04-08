@@ -8,14 +8,15 @@ using namespace std;
 
 void View::printStartHeader() {
     cout << "Podstawowy kliker. Kliknij 'b',zeby dostac point. Nicsnij 'e', zeby wyjsc" << endl;
+    cout << "Kliknij 's' - zapisac postep, 'l' - zaladuj zapisany postep." << endl;
 }
 
-void View::printData(int points) {
-    cout << "Masz teraz " << points << " pointow!" << endl;
+void View::printData(int points, int levels) {
+    cout << "Poziom: " << levels << endl << "Pointow: " << points << endl;// << "//////////////////////" << endl;
 }
 char View::getUserInput() {
     char dane;
-    cout << "Kliknij! : ";
+    cout << "//////////////////////" << endl << "Kliknij!" << endl << "--->";
     cin >> dane;
     return dane;
 }

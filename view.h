@@ -8,7 +8,7 @@
 class View{
 public:
     void printStartHeader();
-    void printData(int points);
+    void printData(int points, int levels);
     char getUserInput();
 };
 
